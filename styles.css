@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 90px;
+  }
+body{
+    background: linear-gradient(45deg,purple,skyblue);
+
+}
+.clock{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#hour{
+    width: 10%;
+    height: 20%;
+    box-shadow: 0 0 20px cyan ;
+    margin: 1rem;
+    padding: 20px;
+    border: none;
+    border-radius: 20%;
+
+} 
+#minute{
+    width: 10%;
+    height: 20%;
+    box-shadow: 0 0 20px cyan ;
+    margin: 1rem;
+    padding: 20px;
+    border: none; 
+    border-radius: 20%;
+}
+#seconds{
+    width: 10%;
+    height: 20%;
+    box-shadow: 0 0 20px cyan ;
+    margin: 1rem;
+    padding: 20px;
+    border: none;
+    border-radius: 20%;
+}
+.col{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    font-size: 100px;
+}
+
+
